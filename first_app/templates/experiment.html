@@ -1,16 +1,16 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <h2>{{ title }} </h2>
+    <h2>Experiment</h2>
     {% load static %}
     <p>
-        <img src="{% static 'images/6.jpeg' %}" alt="">
+        <img src="{% static 'images/3.jpeg' %}" alt="">
     </p>
-    <h3>{{ content }}</h3>
+    <h3>{{ greetings }} {{ data | upper}}</h3>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos doloribus nesciunt animi vitae excepturi provident asperiores ducimus quidem dolorum iusto?</p>
 {% endblock %}
 
 
 {% block title %}
-{{ title }}
+Experiment Page
 {% endblock %}

@@ -23,5 +23,6 @@ urlpatterns = [
     path('app/', include("first_app.urls")),
     path('orders/', include("order_app.urls")),
     path('email/', include('email_app.urls')),
+    path('tasks/', include('todo_app.urls')),
 
 ]

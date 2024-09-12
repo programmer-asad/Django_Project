@@ -1,0 +1,66 @@
+[
+    {
+       "model": "todo_app.task",
+       "pk": 1,
+       "fields":{
+            "title": "Buy milk",
+            "description": "Get 2% milk from store",
+            "completed": false,
+            "created_at": "2024-09-12 10:08:09"
+       }
+    },
+
+    {
+        "model": "todo_app.task",
+        "pk": 2,
+        "fields":{
+             "title": "Walk the dog",
+             "description": "Take max the 30-minutes walk",
+             "completed": true,
+             "created_at": "2024-09-12 10:08:09"
+        } 
+     },
+
+     {
+        "model": "todo_app.task",
+        "pk": 3,
+        "fields":{
+             "title": "Do laundry",
+             "description": "Wash, dry and fold clothes",
+             "completed": false,
+             "created_at": "2024-09-12 10:08:09"
+        }
+     },
+
+     {
+        "model": "todo_app.task",
+        "pk": 4,
+        "fields":{
+             "title": "Take exercise",
+             "description": "Exercise everyday for half an hour",
+             "completed": true,
+             "created_at": "2024-09-12 10:08:09"
+        }
+     },
+     {
+          "model": "todo_app.task",
+          "pk": 5,
+          "fields":{
+               "title": "Go slowly",
+               "description": "Wash your hands, dry and fold clothes",
+               "completed": true,
+               "created_at": "2024-09-12 10:08:09"
+          }
+       },
+       {
+          "model": "todo_app.task",
+          "pk": 6,
+          "fields":{
+               "title": "Do the work",
+               "description": "Do the work, Wash, dry and fold clothes",
+               "completed": false,
+               "created_at": "2024-09-12 10:08:09"
+          }
+       }
+    
+]

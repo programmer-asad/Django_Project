@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'order_app',
     'email_app',
     'home_app',
+    'todo_app',
 ]
 
 MIDDLEWARE = [
